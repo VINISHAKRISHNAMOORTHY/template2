@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <page>
+        <name>page1</name>
+        <type>text</type>
+        <label>Enter your name:</label>
+    </page>
+    <page>
+        <name>page2</name>
+        <type>radio</type>
+        <label>Select book:</label>
+        <option>Hindi</option>
+        <option>English</option>
+    </page>
+    <page>
+        <name>page3</name>
+        <type>message</type>
+        <label>Thank you for your Responce!</label>
+    </page>
+</form>

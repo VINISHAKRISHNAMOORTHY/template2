@@ -1,0 +1,17 @@
+<form>
+    #if($input.kind == "text")
+    <label>$input.title</label><br/>
+    <input type="text" name="$input.key"/><br/>
+    <button type="submit">Submit</button>
+    #end
+    #if($input.kind == "radio")
+    <label>$input.title</label><br/>
+    #foreach($item in $input.choices)
+    <input type="radio" name="$input.key" value="$item"/> $item<br/>
+    #end
+    <button type="submit">Submit</button>
+    #end
+    #if($input.kind == "message")
+    <p>$input.title</p>
+    #end
+</form>

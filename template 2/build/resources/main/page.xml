@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <input>
+        <key>userName</key>
+        <kind>text</kind>
+        <title>Please enter your full name:</title>
+    </input>
+    <input>
+        <key>userLanguage</key>
+        <kind>radio</kind>
+        <title>Select your language:</title>
+        <option>Tamil</option>
+        <option>English</option>
+        <option>Other</option>
+    </input>
+    <input>
+        <key>thankNote</key>
+        <kind>message</kind>
+        <title>Thanks for completing the form!</title>
+    </input>
+</form>

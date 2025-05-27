@@ -1,0 +1,17 @@
+<form>
+#if($page.type == "text")
+<label>$page.label</label><br/>
+<input type="text" name="$page.name"/><br/>
+<button type="submit">Submit</button>
+#end
+
+#if($page.type == "radio")
+<label>$page.label</label><br/>
+#foreach($option in $page.options)
+<input type="radio" name="$page.name" value="$option"/> $option<br/>
+#end
+<button type="submit">Submit</button>
+#end
+#if($page.type == "message")
+<p>$page.label</p>
+#end
